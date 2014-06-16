@@ -3895,9 +3895,18 @@ var acf = {
 			
 			
 			// hide ajax stuff on submit button
-			$('#publish').removeClass('button-primary-disabled');
-			$('#ajax-loading').attr('style','');
-			$('#publishing-action .spinner').hide();
+			if( $('#submitdiv').exists() ) {
+				
+				// remove disabled classes
+				$('#submitdiv').find('.disabled').removeClass('disabled');
+				$('#submitdiv').find('.button-disabled').removeClass('button-disabled');
+				$('#submitdiv').find('.button-primary-disabled').removeClass('button-primary-disabled');
+				
+				
+				// remove spinner
+				$('#submitdiv .spinner').hide();
+				
+			}
 			
 			return false;
 		}
@@ -4449,6 +4458,7 @@ var acf = {
 			
 		}, 11);
 		
+		
 	});
 	
 	
@@ -4473,5 +4483,5 @@ var acf = {
 		
 	});
 	
-
+	
 })(jQuery);
