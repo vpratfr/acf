@@ -4090,14 +4090,6 @@ var acf = {
 			tinyMCE.execCommand( command, false, this.o.id);
 			
 			
-			// get settings
-			var mceInit = tinyMCE.get( this.o.id ).settings;
-			
-			
-			// append settings
-			tinyMCEPreInit.mceInit[ this.o.id ] = mceInit;
-			
-			
 			// events - load
 			$(document).trigger('acf/wysiwyg/load', this.o.id);
 			
