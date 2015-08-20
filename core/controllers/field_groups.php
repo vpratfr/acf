@@ -206,9 +206,8 @@ class acf_field_groups
 		$tab = isset($_GET['info']) ? $_GET['info'] : 'changelog';
 		
 		?>
-<script type="text/html" id="tmpl-acf-col-right">
-<div id="acf-col-right">
-
+<script type="text/html" id="tmpl-acf-column-2">
+<div class="acf-column-2">
 	<div class="wp-box">
 		<div class="inner">
 			<h2><?php _e("Advanced Custom Fields",'acf'); ?> <?php echo $version; ?></h2>
@@ -496,24 +495,25 @@ class acf_field_groups
 (function($){
 	
 	// wrap
-	$('#wpbody .wrap').attr('id', 'acf-field_groups');
-	$('#acf-field_groups').wrapInner('<div id="acf-col-left" />');
-	$('#acf-field_groups').wrapInner('<div id="acf-cols" />');
+	$('#wpbody .wrap').attr('id', 'acf-field-group-wrap');
 	
 	
-	// add sidebar
-	$('#acf-cols').prepend( $('#tmpl-acf-col-right').html() );
+	// wrap column main
+	$('#acf-field-group-wrap').wrapInner('<div class="acf-columns-2" />');
 	
 	
-	// take out h2 + icon
-	$('#acf-col-left > .icon32').insertBefore('#acf-cols');
-	$('#acf-col-left > h2').insertBefore('#acf-cols');
+	// add column main
+	$('#posts-filter').addClass('acf-column-1');
+	
+	
+	// add column side
+	$('#posts-filter').after( $('#tmpl-acf-column-2').html() );
 	
 	
 	<?php if( $show_tab ): ?>
 	// add about copy
 	$('#wpbody-content').prepend( $('#tmpl-acf-about').html() );
-	$('#acf-field_groups').hide();
+	$('#acf-field-group-wrap').hide();
 	$('#screen-meta-links').hide();
 	<?php endif; ?>
 	
