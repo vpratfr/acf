@@ -66,6 +66,7 @@ http://www.advancedcustomfields.com/
 * [Field Types](http://www.advancedcustomfields.com/resources/#field-types)
 * [Functions](http://www.advancedcustomfields.com/resources/#functions)
 * [Actions](http://www.advancedcustomfields.com/resources/#actions)
+* [Features](http://www.advancedcustomfields.com/resources/#features)
 * [Filters](http://www.advancedcustomfields.com/resources/#filters)
 * [How to guides](http://www.advancedcustomfields.com/resources/#how-to)
 * [Tutorials](http://www.advancedcustomfields.com/resources/#tutorials)
