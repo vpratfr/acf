@@ -107,6 +107,14 @@ http://support.advancedcustomfields.com/
 
 == Changelog ==
 
+= 4.4.4 =
+* Field group: Fixed disabled update button after saving with empty title
+* Language: Updated Portuguese translation
+* Language: Updated French translation
+* Language: Updated Polish translation
+* Language: Added Finnish translation
+* Core: Minor fixes and improvements
+
 = 4.4.3 = 
 * WYSIWYG field: Added compatibility for WP 4.3 filters
 * Core: Minor fixes and improvements
