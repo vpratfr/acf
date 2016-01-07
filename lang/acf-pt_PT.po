@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2015-07-23 11:02+0100\n"
-"PO-Revision-Date: 2016-01-07 08:27+0000\n"
+"PO-Revision-Date: 2016-01-07 08:48+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -873,7 +873,7 @@ msgstr "Ocultar detalhes"
 
 #: core/controllers/input.php:67
 msgid "Validation Failed. One or more fields below are required."
-msgstr "Falha ao validar. Um ou mais campos abaixo são obrigatórios."
+msgstr "Falhou ao validar. Um ou mais campos abaixo são obrigatórios."
 
 #: core/controllers/upgrade.php:77
 msgid "Upgrade"
