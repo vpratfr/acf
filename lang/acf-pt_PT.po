@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2015-07-23 11:02+0100\n"
-"PO-Revision-Date: 2016-01-07 08:48+0000\n"
+"PO-Revision-Date: 2016-01-20 13:31+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -76,7 +76,7 @@ msgstr "Campo personalizado actualizado."
 
 #: acf.php:599
 msgid "Custom field deleted."
-msgstr "Campo personalizado apagado."
+msgstr "Campo personalizado eliminado."
 
 #. translators: %s: date and time of the revision
 #: acf.php:602
@@ -1587,11 +1587,11 @@ msgstr "Duplicar"
 
 #: core/views/meta_box_fields.php:110
 msgid "Delete this Field"
-msgstr "Apagar este campo"
+msgstr "Eliminar este campo"
 
 #: core/views/meta_box_fields.php:110
 msgid "Delete"
-msgstr "Apagar"
+msgstr "Eliminar"
 
 #: core/views/meta_box_fields.php:127
 msgid "This is the name which will appear on the EDIT page"
