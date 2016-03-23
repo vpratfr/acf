@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2015-07-23 11:02+0100\n"
-"PO-Revision-Date: 2016-03-23 09:46+0000\n"
+"PO-Revision-Date: 2016-03-23 17:00+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -412,7 +412,7 @@ msgstr "O título do grupo de campos é obrigatório"
 
 #: core/controllers/field_group.php:362
 msgid "copy"
-msgstr "copiar"
+msgstr "cópia"
 
 #: core/controllers/field_group.php:363 core/views/meta_box_location.php:62
 #: core/views/meta_box_location.php:159
