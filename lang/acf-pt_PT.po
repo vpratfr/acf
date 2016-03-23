@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2015-07-23 11:02+0100\n"
-"PO-Revision-Date: 2016-03-23 09:09+0000\n"
+"PO-Revision-Date: 2016-03-23 09:35+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -1133,7 +1133,7 @@ msgstr "Mapa do Google"
 
 #: core/fields/google-map.php:33
 msgid "Locating"
-msgstr "Localizando"
+msgstr "A localizar"
 
 #: core/fields/google-map.php:34
 msgid "Sorry, this browser does not support geolocation"
@@ -1165,7 +1165,7 @@ msgstr "Zoom"
 
 #: core/fields/google-map.php:200
 msgid "Set the initial zoom level"
-msgstr "Definie o nível de zoom inicial"
+msgstr "Definir o nível de zoom inicial"
 
 #: core/fields/google-map.php:217
 msgid "Height"
