@@ -161,15 +161,20 @@ class acf
 	
 	function get_post_id( $post_id )
 	{
-		// set post_id to global
-		if( !$post_id )
-		{
-			global $post;
+		// if not $post_id, load queried object
+		if( !$post_id ) {
 			
-			if( $post )
-			{
-				$post_id = intval( $post->ID );
+			// try for global post (needed for setup_postdata)
+			$post_id = (int) get_the_ID();
+			
+			
+			// try for current screen
+			if( !$post_id ) {
+				
+				$post_id = get_queried_object();
+					
 			}
+			
 		}
 		
 		
