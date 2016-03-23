@@ -1,4 +1,4 @@
-# Copyright (C) 2014 
+# Copyright (C) 2014
 # This file is distributed under the same license as the  package.
 #, fuzzy
 msgid ""
@@ -925,7 +925,7 @@ msgstr ""
 
 #: core/fields/date_picker/date_picker.php:127
 msgid ""
-"This format will determin the value saved to the database and returned via "
+"This format will determine the value saved to the database and returned via "
 "the API"
 msgstr ""
 
