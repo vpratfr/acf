@@ -116,6 +116,14 @@ http://support.advancedcustomfields.com/
 
 == Changelog ==
 
+= 4.4.6 =
+* Google Map field: Improved compatibility with 3rd party plugins including Google JS API
+* API: Improved `get_` functions to load value from the current queried object (post, user, term)
+* Core: Added support for new WP 4.5 term edit page
+* Language: Updated Portuguese translation - thanks to Pedro Mendonca
+* Language: Added Welsh translation - thanks to Carl Morris
+* Language: Added Indonesian translation - thanks to Rio Bermano
+
 = 4.4.5=
 * Core: Fixed metabox title appearing on seamless field groups
 * Language: Updated Portuguese translation
