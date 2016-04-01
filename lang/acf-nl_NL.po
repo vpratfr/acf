@@ -80,7 +80,7 @@ msgstr "Groepen hersteld naar revisie van %s"
 
 #: acf.php:358
 msgid "Field group published."
-msgstr "Groep gepubliseerd."
+msgstr "Groep gepubliceerd."
 
 #: acf.php:359
 msgid "Field group saved."
