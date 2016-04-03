@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields v4.2.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2012-05-12 11:12:49+00:00\n"
-"PO-Revision-Date: 2013-08-26 01:26:30+0000\n"
+"PO-Revision-Date: 2016-04-03 21:00+0200\n"
 "Last-Translator: Augusto Simão <augusto@ams.art.br>\n"
 "Language-Team: Augusto Simão <augusto@ams.art.br>\n"
 "MIME-Version: 1.0\n"
@@ -1345,7 +1345,7 @@ msgstr "Possíveis Problemas"
 
 #: core/controllers/field_groups.php:366
 #@ acf
-msgid "Do to the sizable changes surounding Add-ons, field types and action/filters, your website may not operate correctly. It is important that you read the full"
+msgid "Due to the sizable changes surrounding Add-ons, field types and action/filters, your website may not operate correctly. It is important that you read the full"
 msgstr "Em virtude das mudanças significativas que ocorreram com os Complementos, nos tipos de campos e nas ações/filtros, seu site poderá não funcionar corretamente. É importante que você leia todo o guia"
 
 #: core/controllers/field_groups.php:366
@@ -1542,7 +1542,7 @@ msgstr "Formato dos dados"
 
 #: core/fields/date_picker/date_picker.php:106
 #@ acf
-msgid "This format will determin the value saved to the database and returned via the API"
+msgid "This format will determine the value saved to the database and returned via the API"
 msgstr "Este será o formato salvo no banco de dados e depois devolvido através da API"
 
 #: core/fields/date_picker/date_picker.php:107
@@ -2161,7 +2161,7 @@ msgstr "Aproveite para utilizar várias guias e dividir seus campos em seções.
 #: core/fields/text.php:177
 #: core/fields/textarea.php:142
 #@ acf
-msgid "Effects value on front end"
+msgid "Affects value on front end"
 msgstr "Valor dos efeitos no front-end"
 
 #: core/fields/text.php:186
