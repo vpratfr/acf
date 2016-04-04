@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2013-11-09 15:23+0100\n"
-"PO-Revision-Date: 2016-04-01 06:30+0200\n"
+"PO-Revision-Date: 2016-04-03 21:00+0200\n"
 "Last-Translator: Matteo Cantagallo <matteocng@users.noreply.github.com>\n"
 "Language-Team: Davide De Maestri <davide.demaestri@gmail.com>\n"
 "Language: it_IT\n"
@@ -788,7 +788,7 @@ msgstr "Potenziali Problemi"
 
 #: C:\advanced-custom-fields/core/controllers/field_groups.php:366
 msgid ""
-"Do to the sizable changes surounding Add-ons, field types and action/"
+"Due to the sizable changes surrounding Add-ons, field types and action/"
 "filters, your website may not operate correctly. It is important that you "
 "read the full"
 msgstr ""
@@ -1550,7 +1550,7 @@ msgstr "Formattazione"
 
 #: C:\advanced-custom-fields/core/fields/text.php:177
 #: C:\advanced-custom-fields/core/fields/textarea.php:142
-msgid "Effects value on front end"
+msgid "Affects value on front end"
 msgstr "Ha effetto sul valore nel front end"
 
 #: C:\advanced-custom-fields/core/fields/textarea.php:149
