@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2016-04-06 12:26+0100\n"
-"PO-Revision-Date: 2016-04-06 14:33+0100\n"
+"PO-Revision-Date: 2016-04-06 16:28+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -1368,7 +1368,7 @@ msgstr "IDs dos artigos"
 
 #: core/fields/relationship.php:640
 msgid "Search"
-msgstr "Pesquisa"
+msgstr "Pesquisar"
 
 #: core/fields/relationship.php:641
 msgid "Post Type Select"
