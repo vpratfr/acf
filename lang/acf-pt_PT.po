@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2016-04-06 12:26+0100\n"
-"PO-Revision-Date: 2016-04-07 15:03+0100\n"
+"PO-Revision-Date: 2016-04-11 00:40+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -204,7 +204,7 @@ msgstr "Campo de Contact Form 7"
 
 #: core/controllers/addons.php:183
 msgid "Assign one or more contact form 7 forms to a post"
-msgstr "Atribui um ou mais formulários Contact Form 7 a um artigo"
+msgstr "Atribui um ou mais formulários Contact Form 7 a um conteúdo"
 
 #: core/controllers/addons.php:193
 msgid "Advanced Custom Fields Add-Ons"
@@ -863,15 +863,15 @@ msgstr "O add-on está agora instalado e activado!"
 
 #: core/controllers/field_groups.php:484
 msgid "Awesome. Let's get to work"
-msgstr "Incrível. Vamos começar a trabalhar"
+msgstr "Incrível. Vamos começar a trabalhar."
 
 #: core/controllers/input.php:63
 msgid "Expand Details"
-msgstr "Mostrar detalhes"
+msgstr "Expandir detalhes"
 
 #: core/controllers/input.php:64
 msgid "Collapse Details"
-msgstr "Ocultar detalhes"
+msgstr "Minimizar detalhes"
 
 #: core/controllers/input.php:67
 msgid "Validation Failed. One or more fields below are required."
@@ -905,12 +905,12 @@ msgstr "Caixa de selecção"
 #: core/fields/checkbox.php:20 core/fields/radio.php:19
 #: core/fields/select.php:19 core/fields/true_false.php:20
 msgid "Choice"
-msgstr "Escolha"
+msgstr "Opção"
 
 #: core/fields/checkbox.php:146 core/fields/radio.php:147
 #: core/fields/select.php:177
 msgid "Choices"
-msgstr "Escolhas"
+msgstr "Opções"
 
 #: core/fields/checkbox.php:147 core/fields/select.php:178
 msgid "Enter each choice on a new line."
@@ -1034,7 +1034,7 @@ msgstr "Email"
 #: core/fields/text.php:117 core/fields/textarea.php:104
 #: core/fields/wysiwyg.php:287
 msgid "Appears when creating a new post"
-msgstr "Aparece quando é criado um novo artigo"
+msgstr "Aparece quando é criado um novo conteúdo."
 
 #: core/fields/email.php:123 core/fields/number.php:133
 #: core/fields/password.php:105 core/fields/text.php:131
@@ -1268,7 +1268,7 @@ msgstr "Valor dos passos"
 
 #: core/fields/page_link.php:18
 msgid "Page Link"
-msgstr "Ligação da página"
+msgstr "Ligação de página"
 
 #: core/fields/page_link.php:19 core/fields/post_object.php:19
 #: core/fields/relationship.php:19 core/fields/taxonomy.php:19
@@ -1299,7 +1299,7 @@ msgstr "Senha"
 
 #: core/fields/post_object.php:18
 msgid "Post Object"
-msgstr "Artigo"
+msgstr "Conteúdo"
 
 #: core/fields/post_object.php:194 core/fields/relationship.php:170
 msgid "(no title)"
@@ -1336,7 +1336,7 @@ msgstr ""
 
 #: core/fields/radio.php:187
 msgid "Save 'other' values to the field's choices"
-msgstr "Guardar 'outros' valores nas escolhas do campo"
+msgstr "Guardar 'outros' valores nas opções do campo"
 
 #: core/fields/relationship.php:18
 msgid "Relationship"
@@ -1360,11 +1360,11 @@ msgstr "Formato a mostrar"
 
 #: core/fields/relationship.php:573
 msgid "Post Objects"
-msgstr "Artigos"
+msgstr "Conteúdos"
 
 #: core/fields/relationship.php:574
 msgid "Post IDs"
-msgstr "IDs dos artigos"
+msgstr "IDs dos conteúdos"
 
 #: core/fields/relationship.php:640
 msgid "Search"
@@ -1392,7 +1392,7 @@ msgstr "Título do artigo"
 
 #: core/fields/relationship.php:672
 msgid "Maximum posts"
-msgstr "Máximo de artigos"
+msgstr "Máximo de conteúdos"
 
 #: core/fields/select.php:18 core/fields/select.php:109
 #: core/fields/taxonomy.php:480 core/fields/user.php:313
@@ -1597,12 +1597,12 @@ msgstr "Eliminar"
 
 #: core/views/meta_box_fields.php:127
 msgid "This is the name which will appear on the EDIT page"
-msgstr "Este é o nome que irá aparecer na página de EDITAR"
+msgstr "Este é o nome que irá aparecer na página de EDITAR."
 
 #: core/views/meta_box_fields.php:143
 msgid "Single word, no spaces. Underscores and dashes allowed"
 msgstr ""
-"Uma única palavra, sem espaços. São permitidos underscores (_) e traços (-)"
+"Uma única palavra, sem espaços. São permitidos underscores (_) e traços (-)."
 
 #: core/views/meta_box_fields.php:172
 msgid "Field Instructions"
