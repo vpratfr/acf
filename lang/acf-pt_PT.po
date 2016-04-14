@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
-"POT-Creation-Date: 2016-04-06 12:26+0100\n"
-"PO-Revision-Date: 2016-04-11 00:40+0100\n"
+"POT-Creation-Date: 2016-04-14 10:07+0100\n"
+"PO-Revision-Date: 2016-04-14 10:10+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -23,102 +23,102 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: acf.php:490
+#: acf.php:509
 msgid "Field&nbsp;Groups"
 msgstr "Grupos&nbsp;de&nbsp;campos"
 
 #. Plugin Name of the plugin/theme
-#: acf.php:491 core/controllers/field_groups.php:213
+#: acf.php:510 core/controllers/field_groups.php:213
 msgid "Advanced Custom Fields"
 msgstr "Advanced Custom Fields"
 
-#: acf.php:492
+#: acf.php:511
 msgid "Add New"
 msgstr "Adicionar novo"
 
-#: acf.php:493
+#: acf.php:512
 msgid "Add New Field Group"
 msgstr "Adicionar novo grupo de campos"
 
-#: acf.php:494
+#: acf.php:513
 msgid "Edit Field Group"
 msgstr "Editar grupo de campos"
 
-#: acf.php:495
+#: acf.php:514
 msgid "New Field Group"
 msgstr "Novo grupo de campos"
 
-#: acf.php:496
+#: acf.php:515
 msgid "View Field Group"
 msgstr "Ver grupo de campos"
 
-#: acf.php:497
+#: acf.php:516
 msgid "Search Field Groups"
 msgstr "Pesquisar grupos de campos"
 
-#: acf.php:498
+#: acf.php:517
 msgid "No Field Groups found"
 msgstr "Nenhum grupo de campos encontrado"
 
-#: acf.php:499
+#: acf.php:518
 msgid "No Field Groups found in Trash"
 msgstr "Nenhum grupo de campos encontrado no Lixo"
 
-#: acf.php:584 core/views/meta_box_options.php:99
+#: acf.php:603 core/views/meta_box_options.php:99
 msgid "Custom Fields"
 msgstr "Campos personalizados"
 
-#: acf.php:602 acf.php:605
+#: acf.php:621 acf.php:624
 msgid "Field group updated."
 msgstr "Grupo de campos actualizado."
 
-#: acf.php:603
+#: acf.php:622
 msgid "Custom field updated."
 msgstr "Campo personalizado actualizado."
 
-#: acf.php:604
+#: acf.php:623
 msgid "Custom field deleted."
 msgstr "Campo personalizado eliminado."
 
 #. translators: %s: date and time of the revision
-#: acf.php:607
+#: acf.php:626
 #, php-format
 msgid "Field group restored to revision from %s"
 msgstr "Grupo de campos restaurado para revisão de %s"
 
-#: acf.php:608
+#: acf.php:627
 msgid "Field group published."
 msgstr "Grupo de campos publicado."
 
-#: acf.php:609
+#: acf.php:628
 msgid "Field group saved."
 msgstr "Grupo de campos guardado."
 
-#: acf.php:610
+#: acf.php:629
 msgid "Field group submitted."
 msgstr "Grupo de campos enviado."
 
-#: acf.php:611
+#: acf.php:630
 msgid "Field group scheduled for."
 msgstr "Grupo de campos agendado."
 
-#: acf.php:612
+#: acf.php:631
 msgid "Field group draft updated."
 msgstr "Rascunho de grupo de campos actualizado."
 
-#: acf.php:747
+#: acf.php:766
 msgid "Thumbnail"
 msgstr "Miniatura"
 
-#: acf.php:748
+#: acf.php:767
 msgid "Medium"
 msgstr "Média"
 
-#: acf.php:749
+#: acf.php:768
 msgid "Large"
 msgstr "Grande"
 
-#: acf.php:750
+#: acf.php:769
 msgid "Full"
 msgstr "Completo"
 
@@ -528,7 +528,7 @@ msgstr "Super Administrador"
 #: core/controllers/field_group.php:791 core/fields/file.php:186
 #: core/fields/image.php:177 core/fields/page_link.php:109
 #: core/fields/post_object.php:286 core/fields/post_object.php:310
-#: core/fields/relationship.php:588 core/fields/relationship.php:612
+#: core/fields/relationship.php:582 core/fields/relationship.php:606
 #: core/fields/user.php:276
 msgid "All"
 msgstr "Todos"
@@ -566,7 +566,7 @@ msgstr "Funções"
 msgid "Actions"
 msgstr "Acções"
 
-#: core/controllers/field_groups.php:224 core/fields/relationship.php:631
+#: core/controllers/field_groups.php:224 core/fields/relationship.php:625
 msgid "Filters"
 msgstr "Filtros"
 
@@ -863,7 +863,7 @@ msgstr "O add-on está agora instalado e activado!"
 
 #: core/controllers/field_groups.php:484
 msgid "Awesome. Let's get to work"
-msgstr "Incrível. Vamos começar a trabalhar."
+msgstr "Impressionante. Vamos começar a trabalhar."
 
 #: core/controllers/input.php:63
 msgid "Expand Details"
@@ -1139,7 +1139,7 @@ msgstr "A obter localização"
 
 #: core/fields/google-map.php:34
 msgid "Sorry, this browser does not support geolocation"
-msgstr "Desculpe, este browser não suporta geolocalização"
+msgstr "Desculpe, este browser não suporta geolocalização."
 
 #: core/fields/google-map.php:120
 msgid "Clear location"
@@ -1209,7 +1209,7 @@ msgstr "Nenhuma imagem seleccionada"
 msgid "Add Image"
 msgstr "Adicionar imagem"
 
-#: core/fields/image.php:126 core/fields/relationship.php:563
+#: core/fields/image.php:126 core/fields/relationship.php:557
 msgid "Specify the returned value on front end"
 msgstr "Especifica o valor a mostrar na frente do site"
 
@@ -1244,11 +1244,11 @@ msgstr "Mensagem"
 
 #: core/fields/message.php:71
 msgid "Text &amp; HTML entered here will appear inline with the fields"
-msgstr "O texto e HTML introduzidos aqui irão aparecer na linha dos campos"
+msgstr "O texto e HTML introduzidos aqui irão aparecer na linha dos campos."
 
 #: core/fields/message.php:72
 msgid "Please note that all text will first be passed through the wp function "
-msgstr "Note que todo o texto será previamente analisado pela função wp "
+msgstr "Note que todo o texto será previamente analisado pela função do WP "
 
 #: core/fields/number.php:19
 msgid "Number"
@@ -1277,7 +1277,7 @@ msgid "Relational"
 msgstr "Relacional"
 
 #: core/fields/page_link.php:103 core/fields/post_object.php:280
-#: core/fields/relationship.php:582 core/fields/relationship.php:661
+#: core/fields/relationship.php:576 core/fields/relationship.php:655
 #: core/views/meta_box_location.php:75
 msgid "Post Type"
 msgstr "Tipo de conteúdo"
@@ -1301,11 +1301,11 @@ msgstr "Senha"
 msgid "Post Object"
 msgstr "Conteúdo"
 
-#: core/fields/post_object.php:194 core/fields/relationship.php:170
+#: core/fields/post_object.php:194 core/fields/relationship.php:164
 msgid "(no title)"
 msgstr "(sem título)"
 
-#: core/fields/post_object.php:304 core/fields/relationship.php:606
+#: core/fields/post_object.php:304 core/fields/relationship.php:600
 msgid "Filter from Taxonomy"
 msgstr "Filtrar por taxonomia"
 
@@ -1346,51 +1346,51 @@ msgstr "Relação"
 msgid "Maximum values reached ( {max} values )"
 msgstr "Valor máximo alcançado ( {max} item(s) )"
 
-#: core/fields/relationship.php:457
+#: core/fields/relationship.php:451
 msgid "Search..."
 msgstr "Pesquisar..."
 
-#: core/fields/relationship.php:468
+#: core/fields/relationship.php:462
 msgid "Filter by post type"
 msgstr "Filtrar por tipo de conteúdo"
 
-#: core/fields/relationship.php:562
+#: core/fields/relationship.php:556
 msgid "Return Format"
 msgstr "Formato a mostrar"
 
-#: core/fields/relationship.php:573
+#: core/fields/relationship.php:567
 msgid "Post Objects"
 msgstr "Conteúdos"
 
-#: core/fields/relationship.php:574
+#: core/fields/relationship.php:568
 msgid "Post IDs"
 msgstr "IDs dos conteúdos"
 
-#: core/fields/relationship.php:640
+#: core/fields/relationship.php:634
 msgid "Search"
 msgstr "Pesquisar"
 
-#: core/fields/relationship.php:641
+#: core/fields/relationship.php:635
 msgid "Post Type Select"
 msgstr "Selecção de tipo de conteúdo"
 
-#: core/fields/relationship.php:649
+#: core/fields/relationship.php:643
 msgid "Elements"
 msgstr "Elementos"
 
-#: core/fields/relationship.php:650
+#: core/fields/relationship.php:644
 msgid "Selected elements will be displayed in each result"
 msgstr "Os elementos seleccionados serão mostrados em cada resultado"
 
-#: core/fields/relationship.php:659 core/views/meta_box_options.php:106
+#: core/fields/relationship.php:653 core/views/meta_box_options.php:106
 msgid "Featured Image"
 msgstr "Imagem de destaque"
 
-#: core/fields/relationship.php:660
+#: core/fields/relationship.php:654
 msgid "Post Title"
 msgstr "Título do artigo"
 
-#: core/fields/relationship.php:672
+#: core/fields/relationship.php:666
 msgid "Maximum posts"
 msgstr "Máximo de conteúdos"
 
@@ -1597,7 +1597,7 @@ msgstr "Eliminar"
 
 #: core/views/meta_box_fields.php:127
 msgid "This is the name which will appear on the EDIT page"
-msgstr "Este é o nome que irá aparecer na página de EDITAR."
+msgstr "Este é o nome que irá aparecer na página EDITAR."
 
 #: core/views/meta_box_fields.php:143
 msgid "Single word, no spaces. Underscores and dashes allowed"
