@@ -120,6 +120,7 @@ http://support.advancedcustomfields.com/
 * Relationship field: Fixed bug preventing values from being selected in WP 4.5
 * Google Map field: Fixed bug preventing map to load within repeater field
 * Core: Fixed PHP error when loading ACF values on 'The Events Calendar' (plugin) page
+* Language: Updated Portuguese translation - thanks to Pedro Mendonca
 
 = 4.4.6 =
 * Google Map field: Improved compatibility with 3rd party plugins including Google JS API
