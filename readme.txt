@@ -116,6 +116,11 @@ http://support.advancedcustomfields.com/
 
 == Changelog ==
 
+= 4.4.7 =
+* Relationship field: Fixed bug preventing values from being selected in WP 4.5
+* Google Map field: Fixed bug preventing map to load within repeater field
+* Core: Fixed PHP error when loading ACF values on 'The Events Calendar' (plugin) page
+
 = 4.4.6 =
 * Google Map field: Improved compatibility with 3rd party plugins including Google JS API
 * API: Improved `get_` functions to load value from the current queried object (post, user, term)
