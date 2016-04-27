@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2016-04-14 10:07+0100\n"
-"PO-Revision-Date: 2016-04-14 10:10+0100\n"
+"PO-Revision-Date: 2016-04-27 09:07+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -1139,7 +1139,7 @@ msgstr "A obter localização"
 
 #: core/fields/google-map.php:34
 msgid "Sorry, this browser does not support geolocation"
-msgstr "Desculpe, este browser não suporta geolocalização."
+msgstr "Desculpe, este navegador não suporta geolocalização."
 
 #: core/fields/google-map.php:120
 msgid "Clear location"
