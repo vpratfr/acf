@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2016-04-14 10:07+0100\n"
-"PO-Revision-Date: 2016-04-27 09:07+0100\n"
+"PO-Revision-Date: 2016-04-27 09:19+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -184,11 +184,11 @@ msgstr "Cria um campo de seleção preenchido com Gravity Forms!"
 
 #: core/controllers/addons.php:168
 msgid "Date & Time Picker"
-msgstr "Selector de data e hora"
+msgstr "Selecção de data e hora"
 
 #: core/controllers/addons.php:169
 msgid "jQuery date & time picker"
-msgstr "Selector jQuery de data e hora"
+msgstr "Selecção jQuery de data e hora"
 
 #: core/controllers/addons.php:175
 msgid "Google Map Extended"
@@ -958,7 +958,7 @@ msgstr "Horizontal"
 
 #: core/fields/color_picker.php:19
 msgid "Color Picker"
-msgstr "Selector de cor"
+msgstr "Selecção de cor"
 
 #: core/fields/color_picker.php:20 core/fields/date_picker/date_picker.php:20
 #: core/fields/google-map.php:19
@@ -967,7 +967,7 @@ msgstr "jQuery"
 
 #: core/fields/date_picker/date_picker.php:19
 msgid "Date Picker"
-msgstr "Selector de data"
+msgstr "Selecção de data"
 
 #: core/fields/date_picker/date_picker.php:55
 msgid "Done"
@@ -1397,7 +1397,7 @@ msgstr "Máximo de conteúdos"
 #: core/fields/select.php:18 core/fields/select.php:109
 #: core/fields/taxonomy.php:480 core/fields/user.php:313
 msgid "Select"
-msgstr "Selector"
+msgstr "Selecção"
 
 #: core/fields/tab.php:19
 msgid "Tab"
