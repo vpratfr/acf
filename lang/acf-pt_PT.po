@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2016-04-14 10:07+0100\n"
-"PO-Revision-Date: 2016-04-27 09:19+0100\n"
+"PO-Revision-Date: 2016-04-27 10:01+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -1211,7 +1211,7 @@ msgstr "Adicionar imagem"
 
 #: core/fields/image.php:126 core/fields/relationship.php:557
 msgid "Specify the returned value on front end"
-msgstr "Especifica o valor a mostrar na frente do site"
+msgstr "Especifica o valor a mostrar na frente do site."
 
 #: core/fields/image.php:136
 msgid "Image Object"
@@ -1235,7 +1235,7 @@ msgstr "Mostrado ao introduzir dados"
 
 #: core/fields/image.php:166
 msgid "Limit the media library choice"
-msgstr "Limitar a escolha da biblioteca de media"
+msgstr "Limita a escolha da biblioteca de media."
 
 #: core/fields/message.php:19 core/fields/message.php:70
 #: core/fields/true_false.php:79
@@ -1461,7 +1461,7 @@ msgid ""
 "Load value based on the post's terms and update the post's terms on save"
 msgstr ""
 "Carrega o valor com base nos termos do artigo e actualiza os termos do "
-"artigo ao guardar"
+"artigo ao guardar."
 
 #: core/fields/taxonomy.php:533
 msgid "Term Object"
