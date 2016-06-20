@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2016-04-14 10:07+0100\n"
-"PO-Revision-Date: 2016-04-27 10:01+0100\n"
+"PO-Revision-Date: 2016-06-20 14:15+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
@@ -148,7 +148,7 @@ msgstr "Campo repetidor"
 
 #: core/controllers/addons.php:131
 msgid "Create infinite rows of repeatable data with this versatile interface!"
-msgstr "Cria infinitas linhas de dados repetíveis com um interfácil versátil!"
+msgstr "Cria infinitas linhas de dados repetíveis com uma interface versátil!"
 
 #: core/controllers/addons.php:137 core/controllers/field_groups.php:436
 msgid "Gallery Field"
@@ -156,7 +156,7 @@ msgstr "Campo de galeria"
 
 #: core/controllers/addons.php:138
 msgid "Create image galleries in a simple and intuitive interface!"
-msgstr "Cria galerias de imagens num interface simples e intuitivo!"
+msgstr "Cria galerias de imagens numa interface simples e intuitiva!"
 
 #: core/controllers/addons.php:144 core/controllers/field_groups.php:444
 msgid "Options Page"
@@ -384,7 +384,7 @@ msgid ""
 "to enable lite mode. Add the following code to your functions.php file "
 "<b>before</b> the include_once code:"
 msgstr ""
-"Para remover todos os interfaces visuais do plugin ACF, pode utilizar uma "
+"Para remover todas as interfaces visuais do plugin ACF, pode utilizar uma "
 "constante para activar o <i>modo Lite</i>. Adicione o seguinte código ao seu "
 "ficheiro functions.php <b>antes</b> do código include_once:"
 
