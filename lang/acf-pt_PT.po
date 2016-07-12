@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2016-04-14 10:07+0100\n"
-"PO-Revision-Date: 2016-06-20 14:15+0100\n"
+"PO-Revision-Date: 2016-07-12 11:06+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -1004,7 +1004,7 @@ msgstr "Formatos de data jQuery"
 
 #: core/fields/date_picker/date_picker.php:142
 msgid "Display format"
-msgstr "Formato de apresentação"
+msgstr "Formato de visualização"
 
 #: core/fields/date_picker/date_picker.php:143
 msgid "This format will be seen by the user when entering a value"
@@ -1015,7 +1015,7 @@ msgid ""
 "\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more "
 "about"
 msgstr ""
-"\"dd/mm/yy\" ou \"mm/dd/yy\" são os formatos de apresentação mais "
+"\"dd/mm/yy\" ou \"mm/dd/yy\" são os formatos de visualização mais "
 "utilizados. Leia mais sobre"
 
 #: core/fields/date_picker/date_picker.php:158
@@ -1107,7 +1107,7 @@ msgstr "Adicionar ficheiro"
 #: core/fields/file.php:153 core/fields/image.php:125
 #: core/fields/taxonomy.php:523
 msgid "Return Value"
-msgstr "Valor a mostrar"
+msgstr "Valor devolvido"
 
 #: core/fields/file.php:164
 msgid "File Object"
@@ -1211,7 +1211,7 @@ msgstr "Adicionar imagem"
 
 #: core/fields/image.php:126 core/fields/relationship.php:557
 msgid "Specify the returned value on front end"
-msgstr "Especifica o valor a mostrar na frente do site."
+msgstr "Especifica o valor devolvido na frente do site."
 
 #: core/fields/image.php:136
 msgid "Image Object"
@@ -1356,7 +1356,7 @@ msgstr "Filtrar por tipo de conteúdo"
 
 #: core/fields/relationship.php:556
 msgid "Return Format"
-msgstr "Formato a mostrar"
+msgstr "Formato devolvido"
 
 #: core/fields/relationship.php:567
 msgid "Post Objects"
