@@ -473,7 +473,7 @@
 	*  @created: 22/12/12
 	*/
 	
-	$(window).load(function(){
+	$(window).on('load', function(){
 		
 		// validate
 		if( ! _wysiwyg.has_tinymce() )
