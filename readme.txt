@@ -777,7 +777,7 @@ http://support.advancedcustomfields.com/
 * Added new French translation. Thanks to Martin Vauchel @littlbr http://littleboyrunning.com
 * Fixed duplicate WYSIWYG in chrome bug
 * New Location rules: add fields to a user / taxonomy / attachment
-* Bug Fix: Color picker now shows color on page load. Thanks to Kev http://www.popcreative.co.uk
+* Bug Fix: Color picker now shows color on page load. Thanks to Kevin Ruscoe http://github.com/kevdotbadger"
 * CSS tweaks File clearfix, new style for selects with optgroups
 * Simplified get_value to return default value if value == ""
 * API now allows for "option" and "options" for the $post_id value in API functions
