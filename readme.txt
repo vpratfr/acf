@@ -116,6 +116,11 @@ http://support.advancedcustomfields.com/
 
 == Changelog ==
 
+= 4.4.9 =
+* WYSIWYG field: Fixed JS error preventing tinymce from initializing
+* Image field: Added nicer 'Edit image' view
+* File field: Added nicer 'Edit file' view
+
 = 4.4.8 =
 * Google Map: Added new 'acf/fields/google_map/api' filter
 
