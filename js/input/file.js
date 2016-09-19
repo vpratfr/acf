@@ -237,9 +237,9 @@
 			
 			// create frame
 			this.new_frame({
-				title		:	acf.l10n.image.select,
+				title		:	acf.l10n.file.select,
 				multiple	:	t.o.multiple,
-				button		:	{ text : acf.l10n.image.select }
+				button		:	{ text : acf.l10n.file.select }
 			});
 			
 			
