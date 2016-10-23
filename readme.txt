@@ -116,6 +116,10 @@ http://support.advancedcustomfields.com/
 
 == Changelog ==
 
+= 4.4.11 =
+* Core: Improved logic to better delete term meta during 'delete_term' action
+* Core: Fixed bug causing potential conflict between user and post object cache names
+
 = 4.4.10 =
 * WYSIWYG field: Fixed JS error preventing tinymce from initializing
 
