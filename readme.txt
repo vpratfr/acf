@@ -59,13 +59,11 @@ From your WordPress dashboard
 
 == Screenshots ==
 
-1. Creating the Advanced Custom Fields
+1. Simple & Intuitive
 
-2. Adding the Custom Fields to a page and hiding the default meta boxes
+2. Made for developers
 
-3. The Page edit screen after creating the Advanced Custom Fields
-
-4. Simple and intuitive API. Read the documentation at: https://www.advancedcustomfields.com/resources/
+3. All about fields
 
 
 == Changelog ==
