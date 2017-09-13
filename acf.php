@@ -419,7 +419,7 @@ class acf
 		
 		include_once('core/fields/message.php');
 		include_once('core/fields/tab.php');
-
+		
 	}
 	
 	
@@ -469,6 +469,13 @@ class acf
 	*/
 	
 	function include_after_theme() {
+		
+		// early access
+		if( defined('ACF_EARLY_ACCESS') && ACF_EARLY_ACCESS ) {
+			include_once('core/early-access.php');
+		}
+		
+		
 		
 		// bail early if user has defined LITE_MODE as true
 		if( defined('ACF_LITE') && ACF_LITE )
