@@ -24,7 +24,6 @@ Use the Advanced Custom Fields plugin to take full control of your WordPress edi
 * Powerful Functions
 * Over 30 Field Types
 * Extensive Documentation
-* Helpful Support
 * Millions of Users
 
 = Links =
