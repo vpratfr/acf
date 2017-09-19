@@ -204,12 +204,12 @@ class acf_early_access {
 		
 		
 		// bail early if empty
-		if( !$transient || empty($transient->checked) ) return;
+		if( !$transient || empty($transient->checked) ) return $transient;
 		
 		
 		// bail early if acf was not checked
 		// - rules out possible included file in theme / plugin
-		if( !isset($transient->checked[ $basename ]) ) return;
+		if( !isset($transient->checked[ $basename ]) ) return $transient;
 		
 		
 		// flush cache if no 'acf' update exists
@@ -221,6 +221,9 @@ class acf_early_access {
 			wp_clean_plugins_cache();		
 		}
 		
+		
+		// return 
+		return $transient;
 				
 	}
 	
