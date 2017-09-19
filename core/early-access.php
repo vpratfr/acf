@@ -6,8 +6,16 @@ if( !class_exists('acf_early_access') ):
 
 class acf_early_access {
 	
-	/** @var string The selected version used to update */
-	var $version = '';
+	/** @var string The plugin basename */
+	var $basename = 'advanced-custom-fields/acf.php';
+	
+	
+	/** @var string The early access value */
+	var $access = '';
+	
+	
+	/** @var boolean If the transient has been checked */
+	var $checked = false;
 	
 	
 	/**
@@ -25,11 +33,24 @@ class acf_early_access {
 	
 	function __construct() {
 		
-		// actions
+		// bail early if no access
+		if( !ACF_EARLY_ACCESS ) return;
+		
+		
+		// vars
+		$this->access = (string) ACF_EARLY_ACCESS;
+		
+		
+		// modify plugins transient
+		add_filter( 'pre_set_site_transient_update_plugins',	array($this, 'modify_plugins_transient'), 10, 1 );
+		add_filter( 'site_transient_update_plugins', 			array($this, 'check_plugins_transient'), 10, 1 );
+		
+		
+		// admin
 		if( is_admin() ) {
 			
-			// modify plugins transient
-			add_filter( 'pre_set_site_transient_update_plugins', array($this, 'modify_plugins_transient'), 10, 1 );
+			// modify plugin update message
+			add_action('in_plugin_update_message-' . $this->basename, array($this, 'modify_plugin_update_message'), 10, 2 );
 			
 		}
 		
@@ -160,6 +181,52 @@ class acf_early_access {
 	
 	
 	/**
+	*  check_plugins_transient
+	*
+	*  This function will check the 'update_plugins' transient and maybe modify it's value
+	*
+	*  @date	19/9/17
+	*  @since	5.6.3
+	*
+	*  @param	n/a
+	*  @return	n/a
+	*/
+	
+	function check_plugins_transient( $transient ) {
+		
+		// bail ealry if has been checked
+		if( $this->checked ) return $transient;
+		$this->checked = true;
+		
+		
+		// vars
+		$basename = $this->basename;
+		
+		
+		// bail early if empty
+		if( !$transient || empty($transient->checked) ) return;
+		
+		
+		// bail early if acf was not checked
+		// - rules out possible included file in theme / plugin
+		if( !isset($transient->checked[ $basename ]) ) return;
+		
+		
+		// flush cache if no 'acf' update exists
+		// flush cache if 'acf' update does not contain early access info
+		// flush cache if 'acf' update contains different early access info
+		if( empty($transient->response[ $basename ]) ||
+			empty($transient->response[ $basename ]->early_access) ||
+			$transient->response[ $basename ]->early_access !== $this->access ) {
+			wp_clean_plugins_cache();		
+		}
+		
+				
+	}
+	
+	
+	
+	/**
 	*  modify_plugins_transient
 	*
 	*  This function will modify the 'update_plugins' transient with custom data
@@ -174,45 +241,53 @@ class acf_early_access {
 	
 	function modify_plugins_transient( $transient ) {
 		
+		// vars
+		$basename = $this->basename;
+		
+		
 		// bail early if empty
 		if( !$transient || empty($transient->checked) ) return $transient;
 		
 		
 		// bail early if acf was not checked
-		if( !isset($transient->checked['advanced-custom-fields/acf.php']) ) return $transient;
+		// - rules out possible included file in theme / plugin
+		if( !isset($transient->checked[ $basename ]) ) return $transient;
+		
+		
+		// bail early if already modified
+		if( !empty($transient->response[ $basename ]->early_access) ) return $transient;
 		
 		
 		// vars
 		$info = $this->get_plugin_info();
-		$old_version = $transient->checked['advanced-custom-fields/acf.php'];
-		$new_version = $this->version;
+		$old_version = $transient->checked[ $basename ];
+		$new_version = '';
 		
 		
-		// no version selected, find latest tag
-		if( !$new_version ) {
+		// attempt to find latest tag
+		foreach( $info['versions'] as $version ) {
 			
-			// attempt to find latest tag
-			foreach( $info['versions'] as $version ) {
-				
-				// ignore trunk
-				if( $version == 'trunk' ) continue;
-				
-				
-				// ignore if older than $old_version
-				if( version_compare($version, $old_version, '<') ) continue;
-				
-				
-				// ignore if older than $new_version
-				if( version_compare($version, $new_version, '<') ) continue;
-				
-				
-				// this tag is a newer version!
-				$new_version = $version;
-				
-			}
+			// ignore trunk
+			if( $version == 'trunk' ) continue;
+			
+			
+			// restirct versions that don't start with '5'
+			if( strpos($version, $this->access) !== 0 ) continue;
+			
+			
+			// ignore if $version is older than $old_version
+			if( version_compare($version, $old_version, '<=') ) continue;
+			
+			
+			// ignore if $version is older than $new_version
+			if( version_compare($version, $new_version, '<=') ) continue;
+			
+			
+			// this tag is a newer version!
+			$new_version = $version;
 			
 		}
-		
+				
 		
 		// bail ealry if no $new_version
 		if( !$new_version ) return $transient;
@@ -222,21 +297,44 @@ class acf_early_access {
 		$response = new stdClass();
 		$response->id = 'w.org/plugins/advanced-custom-fields';
 		$response->slug = 'advanced-custom-fields';
-		$response->plugin = 'advanced-custom-fields/acf.php';
+		$response->plugin = $basename;
 		$response->new_version = $new_version;
 		$response->url = 'https://wordpress.org/plugins/advanced-custom-fields/';
 		$response->package = 'https://downloads.wordpress.org/plugin/advanced-custom-fields.'.$new_version.'.zip';
 		$response->tested = $info['tested'];
+		$response->early_access = $this->access;
 		
 		
 		// append
-		$transient->response['advanced-custom-fields/acf.php'] = $response;
-		
+		$transient->response[ $basename ] = $response;
 		
 		
 		// return 
         return $transient;
         
+	}
+	
+	
+	/*
+	*  modify_plugin_update_message
+	*
+	*  Displays an update message for plugin list screens.
+	*
+	*  @type	function
+	*  @date	14/06/2016
+	*  @since	5.3.8
+	*
+	*  @param	$message (string)
+	*  @param	$plugin_data (array)
+	*  @param	$r (object)
+	*  @return	$message
+	*/
+	
+	function modify_plugin_update_message( $plugin_data, $response ) {
+		
+		// display message
+		echo ' <em>' . __('(Early access enabled)', 'acf') . '</em>';
+		
 	}
 	
 }

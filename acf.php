@@ -471,7 +471,7 @@ class acf
 	function include_after_theme() {
 		
 		// early access
-		if( defined('ACF_EARLY_ACCESS') && ACF_EARLY_ACCESS ) {
+		if( defined('ACF_EARLY_ACCESS') ) {
 			include_once('core/early-access.php');
 		}
 		
