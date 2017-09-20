@@ -39,6 +39,7 @@ class acf_early_access {
 		
 		// vars
 		$this->access = (string) ACF_EARLY_ACCESS;
+		$this->basename = apply_filters('acf/get_info', 'basename');
 		
 		
 		// modify plugins transient
