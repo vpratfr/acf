@@ -67,6 +67,11 @@ From your WordPress dashboard
 
 == Changelog ==
 
+= 4.4.12 =
+* Core: Added Early Access for ACF 5
+* Core: Fixed PHP7 warnings
+* Language: Added Romanian translation - thanks to Corneliu Cîrlan
+
 = 4.4.11 =
 * Core: Improved logic to better delete term meta during 'delete_term' action
 * Core: Fixed bug causing potential conflict between user and post object cache names
